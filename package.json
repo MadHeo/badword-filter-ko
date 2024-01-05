@@ -1,7 +1,7 @@
 {
   "name": "badword-filter-ko",
   "version": "1.0.0",
-  "description": "한국 욕을 필터링 할 수 있습니다. 욕을 추가할 수 있으며, 간단한 함수라 쉽게 변형할 수 있습니다. 행복한 코딩 되세욧~!",
+  "description": "한국 욕을 필터링 할 수 있습니다. 욕 리스트도 있습니다. 보기만 해도 어지러운 욕들입니다 ㅠ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

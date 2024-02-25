@@ -1,8 +1,11 @@
 # badword-filter-ko
 
+TEST 중입니다
+TEST TEST TEST
+
 욕 필터 기능과 욕 리스트를 제공합니다
 아직 테스트 중 입니다. 사용 할 수 없습니닷!
-욕 리스트는 언제든 복사하여 사용할 수 있습니다
+욕 리스트는 언제든 복사하여 사용할 수 있습니다.
 
 ```shell
 $ npm i badword-filter-ko

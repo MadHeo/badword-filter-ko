@@ -12,13 +12,22 @@ $ npm i badword-filter-ko
 $ yarn add badword-filter-ko
 ```
 
-사용방법:
+how use
 
 ```js
-var Filter = require("badword-filter-ko"),
-  filter = new Filter();
+import Filter from "badword-filter-ko";
 
-console.log(filter.clean("안녕하세요 씨불"));
+const filter = new Filter();
+
+//filter
+console.log(filter.clean("안녕하세요 시불아"));
+//안녕하세요 **아
+
+//add word
+filter.addWords("하이");
+
+//remove word
+filter.removeWords("하이");
 ```
 
 referred to https://github.com/web-mech/badwords

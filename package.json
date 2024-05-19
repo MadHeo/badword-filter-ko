@@ -2,10 +2,10 @@
   "name": "badword-filter-ko",
   "version": "0.0.3",
   "description": "한국 욕을 필터링 할 수 있습니다. 욕 리스트도 있습니다. 보기만 해도 어지러운 욕들입니다 ㅠ",
-  "main": "./src/lib/badWordsFilter.js",
+  "main": "./src/badWordsFilter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/lib/badWordsFilter.js"
+    "start": "node ./src/badWordsFilter.js"
   },
   "keywords": [
     "badword",

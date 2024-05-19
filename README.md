@@ -1,8 +1,8 @@
 # badword-filter-ko
 
-욕 필터 기능과 욕 리스트를 제공합니다
-아직 테스트 중 입니다. 사용 할 수 없습니닷!
-욕 리스트는 언제든 복사하여 사용할 수 있습니다
+욕 필터 기능과 한국 욕 리스트를 제공합니다.
+
+욕이 포함된 단어 덩어리 모두 "\*" 표시되는 버그가 수정되었습니다.
 
 ```shell
 $ npm i badword-filter-ko
@@ -20,8 +20,8 @@ import Filter from "badword-filter-ko";
 const filter = new Filter();
 
 //filter
-console.log(filter.clean("안녕하세요 시불아"));
-//안녕하세요 **아
+console.log(filter.clean("안녕하세요 저는 시불입니다."));
+//안녕하세요 저는 **입니다.
 
 //add word
 filter.addWords("하이");
